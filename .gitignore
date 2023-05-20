@@ -15,7 +15,6 @@ dist-ssr
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
 .DS_Store
 *.suo
 *.ntvs*
@@ -24,7 +23,7 @@ dist-ssr
 *.sw?
 
 
-.idea
+.idea/*
 !.idea/modules.xml
 !.idea/plunder.iml
 !.idea/vcs.xml
