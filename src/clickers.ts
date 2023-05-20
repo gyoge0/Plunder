@@ -89,5 +89,12 @@ export const futureClickers: Clicker[] = [
         basePrice: 5_000_000,
         goldAdded: 25_000,
         priceIncrease: 1.1
+    },
+    {
+        name: "Polly",
+        description: "🦜",
+        basePrice: 25_000_000,
+        goldAdded: 100_000,
+        priceIncrease: 1.25
     }
 ]

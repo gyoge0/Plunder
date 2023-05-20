@@ -10,25 +10,20 @@
 
 </script>
 
-<section>
-    <div>
-        <Multiplier/>
-        {#each clickers as clicker}
-            <Auto bind:clicker/>
-        {/each}
-    </div>
-</section>
+<div>
+    <Multiplier/>
+    {#each clickers as clicker}
+        <Auto bind:clicker/>
+    {/each}
+</div>
 
 <style>
-    section {
-        width: 50%;
-        flex-grow: 0;
-        height: 100%;
-    }
-
     div {
-        overflow-y: auto;
-        width: 90%;
-        height: 75%;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 30px;
+    }
+    div:last-child {
+        margin-bottom: 30px;
     }
 </style>

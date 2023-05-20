@@ -33,11 +33,14 @@
 
 <style>
     div {
-        border-bottom: 1px solid dimgray;
         display: flex;
         flex-flow: column nowrap;
-        padding: 10px;
+        padding: 20px;
         gap: 4px;
+        background-color: #bae6ff;
+        border: solid 5px black;
+        width: 450px;
+        border-radius: 30px;
     }
 
     button {

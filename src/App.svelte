@@ -24,20 +24,27 @@
     <Modals>
         <div slot="backdrop" class="backdrop" on:click={closeModal}></div>
     </Modals>
-    <h1>Plunder!</h1>
+    <h1>Plunder 🏴‍☠️</h1>
     <div id="content">
         <ClickArea gold={gold} click={click}/>
         <Clickers/>
     </div>
+    <img src="/wave.svg" alt="wave background">
 </main>
 
 <style>
+    img {
+        position: fixed;
+        bottom: 0;
+        z-index: -1;
+    }
     main {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         justify-content: flex-start;
         height: 100%;
+        gap: 30px;
     }
 
     #content {
@@ -49,7 +56,7 @@
     }
 
     h1 {
-        font-size: 10em;
+        font-size: 8em;
         font-family: Arial, sans-serif;
     }
 
