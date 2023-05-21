@@ -22,8 +22,6 @@
         display: flex;
         flex-flow: column nowrap;
         gap: 30px;
-    }
-    div:last-child {
         margin-bottom: 30px;
     }
 </style>
