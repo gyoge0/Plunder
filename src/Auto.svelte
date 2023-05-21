@@ -71,6 +71,8 @@
         width: fit-content;
         align-self: flex-end;
         user-select: none;
+        position: absolute;
+        transform: translate(0, 105px);
     }
     button:disabled {
         background-color: #e61010;
